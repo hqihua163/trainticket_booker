@@ -134,7 +134,7 @@ class Ticket(object):
         username = form.find_elements_by_name("loginUserDTO.user_name")[0]
         password = form.find_elements_by_name("userDTO.password")[0]
         username.send_keys(self.username)
-        password.send_keys(self.password)
+        password.send_keys(self.password)jjj
         import pdb
         pdb.set_trace()
     
